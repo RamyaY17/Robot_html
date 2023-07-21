@@ -1,0 +1,74 @@
+.Face{
+    background-color: peru;
+    height: 200px;
+    width:280px;
+    border-radius: 200px 200px 0px 0px;
+    margin:1px solid black;
+    left:200px;
+    position:relative;
+}
+.Eye1{
+    background-color: white;
+    height:25px;
+    width:25px;
+    border-radius: 50%;
+    top: 100px;
+    position: absolute;
+    left: 50px;
+}
+.Eye2{
+    background-color: white;
+    height:25px;
+    width:25px;
+    border-radius: 50%;
+    top: 100px;
+    position: absolute;
+    left: 210px;
+}
+.Body1{
+    background-color: peru;
+    height: 300px;
+    width: 280px;
+    border-radius: 0px 0px 100px 100px;
+    top: 230px;
+    position:absolute;
+    left: 210px;
+}
+.Hand1{
+    background-color: peru;
+    height:205px;
+    width:45px;
+    border-radius: 50px;
+    position: absolute;
+    left: 140px;
+    top: 250px;
+}
+.Hand2{
+    background-color: peru;
+    height:205px;
+    width:45px;
+    border-radius: 50px;
+    position: absolute;
+    left: 510px;
+    top: 250px;
+}
+.leg1{
+    background-color: peru;
+    height:230px;
+    width:50px;
+    border-radius: 0px 0px 150px 150px;
+    position:absolute;
+    top: 200px;
+    z-index: -1;
+    left: 190px;
+}
+.leg2{
+    background-color: peru;
+    height:230px;
+    width:50px;
+    border-radius: 0px 0px 150px 150px;
+    position:absolute;
+    top: 200px;
+    z-index: -1;
+    left: 45px;
+}
